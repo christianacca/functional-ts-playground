@@ -6,5 +6,11 @@
     "isShellCommand": true,
     "args": [],
     "showOutput": "silent",
-    "problemMatcher": "$tsc"
+    "problemMatcher": "$tsc",
+    "tasks": [
+        {
+            "taskName": "compile",
+            "suppressTaskName": true
+        }
+    ]
 }
